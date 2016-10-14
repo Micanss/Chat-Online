@@ -22,7 +22,7 @@ require_once __DIR__ . '/../../Workerman/Autoloader.php';
 Autoloader::setRootPath(__DIR__);
 
 // WebServer
-$web = new WebServer("http://192.168.0.114:8080");
+$web = new WebServer("http://28.94.214.249:80");
 // WebServer进程数量
 $web->count = 2;
 // 设置站点根目录

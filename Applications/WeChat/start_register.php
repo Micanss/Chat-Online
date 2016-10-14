@@ -18,7 +18,7 @@ use \GatewayWorker\Register;
 require_once __DIR__ . '/../../Workerman/Autoloader.php';
 
 // register 服务必须是text协议
-$register = new Register('text://192.168.0.114:1238');
+$register = new Register('text://28.94.214.249:1238');
 
 // 如果不是在根目录启动，则运行runAll方法
 if(!defined('GLOBAL_START')) {
